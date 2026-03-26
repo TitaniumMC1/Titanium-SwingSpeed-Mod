@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.titanium.swingspeedchanger.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "swingspeedchanger-refmap.json",
+  "mixins": [
+    "HandSwingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

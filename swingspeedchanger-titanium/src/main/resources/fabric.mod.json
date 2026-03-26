@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "swingspeedchanger",
+  "version": "1.0.0",
+  "name": "Swing Speed Changer",
+  "description": "This mod lets you change the swing speed as you wish! Fully toggleable and doesn't compromise game logic!",
+  "authors": [
+    "titanium"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/swingspeedchanger/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.titanium.swingspeedchanger.Main"
+    ],
+    "modmenu": [
+      "net.titanium.swingspeedchanger.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "swingspeedchanger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/midnightlib-1.7.5+1.21.1-fabric.jar"
+    }
+  ]
+}
